@@ -39,7 +39,7 @@ This project requires the following dependencies:
 - [en_core_web_sm-3.8.0](https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl)  
 - [en_core_web_md-3.8.0](https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl)
 - llama-cpp-python >= 0.3.1 [![Llama-cpp-python](https://img.shields.io/badge/Llama--cpp--python-0.3.1-blue)](https://abetlen.github.io/llama-cpp-python/whl/cpu)
-- pyLDAvis >=3.4.0 [![pyLDAvis](https://img.shields.io/badge/pyLDAavis-3.4.0-green?logo=pyLDAvis)](https://pypi.org/project/pyLDAvis/)  
+- pyLDAvis >=3.4.0 [![pyLDAvis](https://img.shields.io/badge/pyLDAavis-3.4.0-green?logo=python)](https://pypi.org/project/pyLDAvis/)  
 
 ### **Additional Notes for Specific Labs**
 
