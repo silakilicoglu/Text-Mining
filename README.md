@@ -48,7 +48,7 @@ This project requires the following dependencies:
     ```bash
     pip install gensim
     ```  
-  - Alternatively, you can create a **separate virtual environment** for this lab to avoid conflicts.
+  - Alternatively, you can create a **separate conda environment** for this lab to avoid conflicts.
 
 - **Text Summarization**:
   - This lab uses **llama-cpp** and **PyTorch** but is configured for **CPU-only installations** of these libraries.
