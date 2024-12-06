@@ -23,20 +23,23 @@ The course covers the following topics and methods in text mining:
 ## Requirements:  
 This project requires the following dependencies:  
 
-- python [![Python Version](https://img.shields.io/badge/python-3.8%20%7C%203.9-blue)](https://www.python.org/downloads/)      
-- jupyter notebook >= 7.0 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-7.0.0-orange?logo=jupyter)](https://jupyter.org/)    
+- jupyter [![jupyter](https://img.shields.io/badge/jupyter-latest-blue)](https://jupyter.org/)  
+- jupyterlab [![jupyterlab](https://img.shields.io/badge/jupyterlab-latest-blue)](https://jupyterlab.readthedocs.io/en/latest/)  
+- jupyter notebook >= 7.0 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter--Notebook-7.0.0-orange?logo=jupyter)](https://jupyter.org/)    
 - numpy >= 1.25.0 [![NumPy](https://img.shields.io/badge/numpy-1.25.0-blue?logo=python)](https://numpy.org/)    
 - matplotlib >= 3.7.0 [![Matplotlib](https://img.shields.io/badge/matplotlib-3.7.0-blue?logo=python)](https://matplotlib.org/)  
 - scikit-learn >= 1.3.0 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.0-blue?logo=scikit-learn)](https://scikit-learn.org/1.5/install.html)  
 - pandas >= 2.1.0 [![Pandas](https://img.shields.io/badge/pandas-2.1.0-blue?logo=pandas)](https://pandas.pydata.org/)
 - Seaborn >= 0.13.0 [![Seaborn](https://img.shields.io/badge/seaborn-0.13.0-blue?logo=python)](https://seaborn.pydata.org/)  
-- Hugging Face Hub [![Hugging Face](https://img.shields.io/badge/Huggingface-Hub-yellow?logo=HuggingFace)](https://huggingface.co/docs/hub/)  
+- huggingface-hub [![Hugging Face](https://img.shields.io/badge/Huggingface-Hub-yellow?logo=HuggingFace)](https://huggingface.co/docs/hub/)  
 - nbgrader >= 0.9.0 [![Nbgrader](https://img.shields.io/badge/nbgrader-0.9.0-blue?logo=python)](https://nbgrader.readthedocs.io/)  
 - Rich [![Rich](https://img.shields.io/badge/rich-Latest-purple?logo=python)](https://rich.readthedocs.io/)  
 - Torch [![Torch](https://img.shields.io/badge/Torch-Latest-red?logo=pytorch)](https://pytorch.org/) (with CPU support via [index URL](https://download.pytorch.org/whl/cpu)) 
 - spaCy >= 3.8.0 [![spaCy](https://img.shields.io/badge/spaCy-3.8.0-green?logo=spacy)](https://spacy.io/)  
-  - [en_core_web_sm-3.8.0](https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl)  
-  - [en_core_web_md-3.8.0](https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl)  
+- [en_core_web_sm-3.8.0](https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl)  
+- [en_core_web_md-3.8.0](https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl)
+- llama-cpp-python >= 0.3.1 [![Llama-cpp-python](https://img.shields.io/badge/Llama--cpp--python-0.3.1-blue)](https://abetlen.github.io/llama-cpp-python/whl/cpu)
+- pyLDAvis >=3.4.0 [![pyLDAavis](https://img.shields.io/badge/pyLDAavis-3.4.0-green?logo=spacy)](https://pypi.org/project/pyLDAvis/)  
 
 ### **Additional Notes for Specific Labs**
 
