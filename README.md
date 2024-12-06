@@ -24,14 +24,32 @@ The course covers the following topics and methods in text mining:
 This project requires the following dependencies:  
 
 - python [![Python Version](https://img.shields.io/badge/python-3.8%20%7C%203.9-blue)](https://www.python.org/downloads/)      
-- jupyter notebook [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)    
-- numpy==1.26.4 [![NumPy](https://img.shields.io/badge/numpy-1.26.4-blue?logo=python)](https://numpy.org/)    
-- scipy [![SciPy](https://img.shields.io/badge/scipy-latest-blue?logo=scipy)](https://scipy.org/)  
-- matplotlib [![Matplotlib](https://img.shields.io/badge/matplotlib-latest-blue?logo=python)](https://matplotlib.org/)  
-- scikit-learn [![scikit-learn](https://img.shields.io/badge/scikit--learn-latest-blue?logo=scikit-learn)](https://scikit-learn.org/1.5/install.html)  
-- pandas [![Pandas](https://img.shields.io/badge/pandas-latest-blue?logo=pandas)](https://pandas.pydata.org/)    
-- tensorflow==2.16.1 [![TensorFlow](https://img.shields.io/badge/tensorflow-2.16.1-orange?logo=tensorflow)](https://www.tensorflow.org/)  
-- keras [![Keras](https://img.shields.io/badge/Keras-latest-red?logo=keras)](https://pypi.org/project/keras/)        
+- jupyter notebook >= 7.0 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-7.0.0-orange?logo=jupyter)](https://jupyter.org/)    
+- numpy >= 1.25.0 [![NumPy](https://img.shields.io/badge/numpy-1.25.0-blue?logo=python)](https://numpy.org/)    
+- matplotlib >= 3.7.0 [![Matplotlib](https://img.shields.io/badge/matplotlib-3.7.0-blue?logo=python)](https://matplotlib.org/)  
+- scikit-learn >= 1.3.0 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.0-blue?logo=scikit-learn)](https://scikit-learn.org/1.5/install.html)  
+- pandas >= 2.1.0 [![Pandas](https://img.shields.io/badge/pandas-2.1.0-blue?logo=pandas)](https://pandas.pydata.org/)
+- Seaborn >= 0.13.0 [![Seaborn](https://img.shields.io/badge/seaborn-0.13.0-blue?logo=python)](https://seaborn.pydata.org/)  
+- Hugging Face Hub [![Hugging Face](https://img.shields.io/badge/Huggingface-Hub-yellow?logo=HuggingFace)](https://huggingface.co/docs/hub/)  
+- nbgrader >= 0.9.0 [![Nbgrader](https://img.shields.io/badge/nbgrader-0.9.0-blue?logo=python)](https://nbgrader.readthedocs.io/)  
+- Rich [![Rich](https://img.shields.io/badge/rich-Latest-purple?logo=python)](https://rich.readthedocs.io/)  
+- Torch [![Torch](https://img.shields.io/badge/Torch-Latest-red?logo=pytorch)](https://pytorch.org/) (with CPU support via [index URL](https://download.pytorch.org/whl/cpu)) 
+- spaCy >= 3.8.0 [![spaCy](https://img.shields.io/badge/spaCy-3.8.0-green?logo=spacy)](https://spacy.io/)  
+  - [en_core_web_sm-3.8.0](https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl)  
+  - [en_core_web_md-3.8.0](https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl)  
+
+### **Additional Notes for Specific Labs**
+
+- **Clustering and Topic Modelling**:
+  - This lab additionally requires `gensim`, which is **not included in the `requirements.txt`** due to dependency conflicts. Install `gensim` separately **after** installing all other dependencies:  
+    ```bash
+    pip install gensim
+    ```  
+  - Alternatively, you can create a **separate virtual environment** for this lab to avoid conflicts.
+
+- **Text Summarization**:
+  - This lab uses **llama-cpp** and **PyTorch** but is configured for **CPU-only installations** of these libraries.
+  - If you have a GPU and wish to use it for this lab, follow the official [PyTorch installation instructions](https://pytorch.org/get-started/locally/) to set up a GPU-enabled environment.
 
 ---
 
@@ -60,6 +78,13 @@ conda activate text_mining_env
 ```bash
 pip install -r requirements.txt  
 ```
+5. For Clustering and Topic Modelling:  
+   - After setting up the environment, install gensim:  
+     ```bash
+     pip install gensim
+     ```
+6. For Text Summarization:
+   - By default, the environment is set up for CPU usage. To use GPU, adapt your PyTorch installation as per [this guide.](https://pytorch.org/get-started/locally/)
 
 ## Usage  
 To run the Jupyter notebooks:  
@@ -67,4 +92,4 @@ To run the Jupyter notebooks:
 ```bash
 jupyter notebook  
 ```
-2. Navigate to the desired notebook in the Jupyter Interface and open it.  
+2. Navigate to the desired notebook in the Jupyter Interface and run the code.  
